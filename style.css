@@ -132,7 +132,7 @@ li a:active {
 * Dropdown Button *
 **********************************************************************/
 .dropbtn {
-  background-color: #8AADB3;
+  background-color: #737F8B;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -189,3 +189,27 @@ li a:active {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+/***********************************************
+photo gallery
+***********************************************/
+div.gal {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gal:hover {
+  border: 1px solid #777;
+}
+
+div.gal img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
