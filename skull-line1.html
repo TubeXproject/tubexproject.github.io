@@ -12,7 +12,7 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
 
-  <title>line1-Skull-TubeX</title>  
+  <title>GPRline1-Skull Cave-TubeX</title>  
 
 <link href="./main.a3f694c0.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -80,10 +80,12 @@
 				        <ul style="list-style-type: none">
 							<li><a href="#gps">&bullet; GPS coordinates of the line 1 over the lidar point cloud</a></li>
 							<li><a href="#raw">&bullet; raw data</a></li>
-							<li><a href="#proc">&bullet; simple process</a></li>
-							<li><a href="#topo">&bullet; after topo-correction</a></li>
+							<li><a href="#proc">&bullet; simple process after topo-correction</a></li>
 							<li><a href="#topo-lidar">&bullet; after topo-correction with lidar geometry on top</a></li>
-							<li><a href="#const-mig">&bullet; 1D constant velocity migration</a></li>
+							<li><a href="#const-fkmig">&bullet; 1D constant velocity fk migration</a></li>
+							<li><a href="#const-fkmig-lidar">&bullet; 1D constant velocity fk migration with lidar geometry on top</a></li>
+							<li><a href="#const-kirchhoffmig">&bullet; 1D constant velocity kirchhoff migration</a></li>
+							<li><a href="#const-kirchhoffmig-lidar">&bullet; 1D constant velocity kirchhoff migration with lidar geometry on top</a></li>
 							<li><a href="#2D-mig">&bullet; migration with 2D velocity model based on lidar geometry</a></li>
 							<li><a href="#lidar-geo">&bullet; lidar geometry</a></li>
 							<li><a href="#frw">&bullet; forward model</a></li>
@@ -96,23 +98,43 @@
 						<ul id="gallery" style="list-style: none;">
 
 			  				<li>
-								<h6 id="gps">GPS coordinates of the line 1 over the lidar point cloud</h6>
-								<a href="img/GPRLine1_with_lidar_picks_SE.jpg" data-lightbox="image-1" data-title="skull, line1"><img class="col img-responsive" src="img/GPRLine1_with_lidar_picks_SE.jpg" alt="Skull"></a>
+								<h6 id="gps">GPS coordinates of the gpr line 1 over the Skull lidar point cloud</h6>
+								<a href="img/skull/lidarPointCloud-GPS-GPRline1-skullcave.png" data-lightbox="image-1" data-title="skull, line1, LiDAR, GPS, GPR, point cloud"><img class="col img-responsive" src="img/skull/lidarPointCloud-GPS-GPRline1-skullcave.png" alt="lidarPointCloud-GPS-GPRline1-skullcave"></a>
 							</li>
-							
+							<br>
 							<li>
 								<h6 id="raw">Raw data</h6>
-								<a href="img/GPRLine1_with_lidar_picks_SE.jpg" data-lightbox="image-1" data-title="skull, line1"><img class="col img-responsive" src="img/GPRLine1_with_lidar_picks_SE.jpg" alt="Skull"></a> 
+								<a href="img/Skull/gprline1-skull-rawdata.png" data-lightbox="image-1" data-title="skull, line1, raw, gpr" target="_blank"><img class="col img-responsive" src="img/Skull/gprline1-skull-rawdata.png" alt="Skull-GPRline1-Raw"></a> 
 							</li>
-							
+							<br>
 							<li>
-								<h6 id="proc">simple process</h6>
-								<a href="img/GPRLine1_with_lidar_picks_SE.jpg" data-lightbox="image-1" data-title="skull, line74"><img class="col img-responsive" src="img/GPRLine1_with_lidar_picks_SE.jpg" alt="Skull"></a> 
+								<h6 id="proc">simple process after topo-correction</h6>
+								<a href="img/Skull/gprline1-skull-Procdata.png" data-lightbox="image-1" data-title="skull, line1, simple, processed, gpr, topo" target="_blank"><img class="col img-responsive" src="img/Skull/gprline1-skull-Procdata.png" alt="gprline1-skull-Procdata"></a> 
 							</li>
-							
+							<br>
 							<li>
-								<h6 id="topo">after topo-correction</h6>
-								<a href="img/GPRLine1_with_lidar_picks_SE.jpg" data-lightbox="image-1" data-title="skull, line74"><img class="col img-responsive" src="img/GPRLine1_with_lidar_picks_SE.jpg" alt="Skull"></a> 
+								<h6 id="topo-lidar">simple process after topo-correction with lidar geometry on top</h6>
+								<a href="img/Skull/gprline1-skull-Procdata-LidarOnTop.png" data-lightbox="image-1" data-title="skull, line1, simple, processed, gpr, lidar,topo" target="_blank"><img class="col img-responsive" src="img/Skull/gprline1-skull-Procdata-LidarOnTop.png" alt="gprline1-skull-Procdata-lidarOnTop"></a> 
+							</li>
+							<br>
+							<li>
+								<h6 id="const-fkmig">fk migration with 1D constant velocity of 0.11 m/ns</h6>
+								<a href="img/Skull/1Dfkmigratin-v011-GPRline1-skull.png" data-lightbox="image-1" data-title="skull, line1, processed, gpr, topo, migration, fk, 1D, constant, velocity" target="_blank"><img class="col img-responsive" src="img/Skull/1Dfkmigratin-v011-GPRline1-skull.png" alt="1Dfkmigratin-v011-GPRline1-skull"></a> 
+							</li>
+							<br>
+							<li>
+								<h6 id="const-fkmig-lidar">fk migration with 1D constant velocity of 0.11 m/ns with lidar geometry on top</h6>
+								<a href="img/Skull/1D-fk-migratin-v011-GPRline1-skull-lidarOntop.png" data-lightbox="image-1" data-title="skull, line1, processed, gpr, topo, migration, fk, 1D, constant, velocity, lidar, geometry" target="_blank"><img class="col img-responsive" src="img/Skull/1D-fk-migratin-v011-GPRline1-skull-lidarOntop.png" alt="1D-fk-migratin-v011-GPRline1-skull-lidarOntop"></a> 
+							</li>
+							<br>
+							<li>
+								<h6 id="const-kirchhoffmig">Kirchhoff migration with 1D constant velocity of 0.11 m/ns</h6>
+								<a href="img/Skull/1D-kirchhoff-migratin-v011-GPRline1-skull.png" data-lightbox="image-1" data-title="skull, line1, processed, gpr, topo, migration, kirchhoff, 1D, constant, velocity" target="_blank"><img class="col img-responsive" src="img/Skull/1D-kirchhoff-migratin-v011-GPRline1-skull.png" alt="1D-kirchhoff-migratin-v011-GPRline1-skull"></a> 
+							</li>
+							<br>
+							<li>
+								<h6 id="const-kirchhoffmig-lidar">Kirchhoff migration with 1D constant velocity of 0.11 m/ns with lidar geometry on top</h6>
+								<a href="img/Skull/1D-kirchhoff-migratin-v011-GPRline1-skull-lidarOntop.png" data-lightbox="image-1" data-title="skull, line1, processed, gpr, topo, migration, kirchhoff, 1D, constant, velocity, lidar, geometry" target="_blank"><img class="col img-responsive" src="img/Skull/1D-kirchhoff-migratin-v011-GPRline1-skull-lidarOntop.png" alt="1D-kirchhoff-migratin-v011-GPRline1-skull-lidarOntop"></a> 
 							</li>
 						</ul>
 					</div>
