@@ -12,6 +12,8 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
 
+ 
+
   <title>TubeX</title>  
 
 <link href="./main.a3f694c0.css" rel="stylesheet">
@@ -30,10 +32,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="./index.html" title="">  
-
-          <img src="./logo/tube-x_logo_transparent_50px.png" class="navbar-logo-img" alt=""> 
-        </a>        
+        
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
@@ -46,7 +45,6 @@
 <!--          <li><a href="./glossary.html" title="">Glossary</a></li>-->
           <li><a href="./map.html" title="">Map</a></li>
 		  <li><a href="./data.html" title="">Data</a></li>
-		  <li><a href="./metadata.html" title="">Metadata</a></li>
           
         </ul>
       </div>
@@ -55,42 +53,34 @@
 </header>
 
 <!--background-image-container" style="background-image: url('./assets/images/gpr2.JPG');"-->
-<!--<div class="container" style="width: : 100%">-->
+<div class="section-container"  >
 <!--	 <div class="row section-container-spacer">-->
-<!--                        <div class="col-md-6">-->
-	<div>
-		<img class="img-responsive center" src="./assets/images/IMG_2326.JPG" alt="LBNM-HerculesLeg" >
-	</div>
-
-<!--		  <div class="col-md-6">-->
-	<div class="white-text-container centered" >
-	   <div class="opacity"></div>
-<!--		<div class="container" >-->
+<!--                        <div class="col-md-5">-->
+                            <img class="img-responsive" src="./assets/images/gpr2(1018x764).jpg">
+                        
+	<div class="white-text-container"  >
+<!--	   <div class="opacity"></div>-->
+		<div class="container" >
 			<div class="row" >
 			   <div class="col-xs-12 col-md-8 col-md-offset-2">
-	            
-
+<!--	            <div class="col-md-6">-->
 					<h1>TubeX</h1>
-					<p style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'">TubeX aims to develop an exploration and characterization strategy for lava tubes using a combination of field portable instruments and geophysical techniques including <a href="./about.html"> see more</a> </p>
-					<p><a href="./data.html" title="data" class="btn btn-lg btn-primary">Data</a> </p>
-				   
+					<p style="font-family:Arial">TubeX aims to develop an exploration and characterization strategy for lava tubes using a combination of field portable instruments and geophysical techniques including <a href="./about.html"> see more</a> </p>
+					 <a href="./data.html" title="" class="btn btn-lg btn-primary">Data</a>
 				</div>
-<!--			</div>-->
+
+			</div>
 		</div>
-		
-	
+	</div>
 </div>
 
 <footer>
     <div class="section-container footer-container">
 <!--        <div class="container">-->
 <!--            <div class="row">-->
-				<div class="col-md-10" >
-					<p><small>Website developed by <a href="http://esmaeili.myweb.usf.edu/" class="link-like-text" title="Sanaz Esmaeili" target="_blank">Sanaz Esmaeili</a>, last edited Nov, 2020</small></p>    
-				
-		       
-					<p style="text-align: right"><small>Contact&nbsp;us:&nbsp;esmaeili@usf.edu</small></p>
-		        </div>
+				<div class="col-md-8" >
+					<p><small>Website developed by <a href="http://esmaeili.myweb.usf.edu/" class="link-like-text" title="Sanaz Esmaeili" target="_blank">Sanaz Esmaeili</a></small></p>    
+				</div>
 <!--
 				<div class="col-md-6" style="text-align: right"> 
 					<h6>Do you like ? Share this !</h6>
